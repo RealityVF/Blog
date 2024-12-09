@@ -1,5 +1,7 @@
 # Hugo configuration file
-title: 小小的柚子的发芽
+title: 小小的柚子的嫩芽
+
+defaultContentLanguage: zh-cn
 
 # import hextra as module
 module:
@@ -18,27 +20,25 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - name: 文档
       pageRef: /docs
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: 博客
+      pageRef: /blog
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: 关于
+      pageRef: /about
       weight: 3
-    - name: Search
+    - name: 搜索
       weight: 4
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
-      params:
-        icon: github
-    - name: Blog
-      pageRef: /blog
-      weight: 6
+    # - name: GitHub
+    #   weight: 5
+    #   url: "https://github.com/imfing/hextra-starter-template"
+    #   params:
+    #     icon: github
+
 params:
   navbar:
     displayTitle: true
@@ -52,4 +52,4 @@ params:
   #   enable: true
   #   base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
 
-defaultContentLanguage: zh-cn
+
